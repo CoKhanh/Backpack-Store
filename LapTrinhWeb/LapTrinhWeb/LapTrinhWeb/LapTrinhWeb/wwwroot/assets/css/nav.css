@@ -1,0 +1,15 @@
+
+
+#btn {
+    padding: 9px 25px;
+    background-color: #9c88ff;
+    color: #f5f6fa;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration:none;
+}
+    #btn:hover {
+        background-color: rgba(156, 136, 255, 0.8);
+    }

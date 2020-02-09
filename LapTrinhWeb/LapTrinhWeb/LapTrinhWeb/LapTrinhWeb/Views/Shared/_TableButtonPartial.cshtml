@@ -1,0 +1,17 @@
+﻿@model  int
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<td style="width:150px">
+    <div class="btn btn-group" role="group">
+        <a class="btn btn-outline-primary btn-sm" href="@Url.Action("Edit/"+Model)">
+            <i class="mdi mdi-pencil"></i>
+        </a>
+        <a class="btn btn-outline-info btn-sm" href="@Url.Action("Details/"+Model)">
+            <i class="mdi mdi-content-paste"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-sm" href="@Url.Action("Delete/"+Model)">
+            <i class="mdi mdi-delete-sweep"></i>
+        </a>
+    </div>
+</td>

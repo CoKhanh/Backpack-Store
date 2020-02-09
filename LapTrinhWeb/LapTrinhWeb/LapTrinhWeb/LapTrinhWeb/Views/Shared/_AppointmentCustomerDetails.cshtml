@@ -1,0 +1,46 @@
+﻿@model LapTrinhWeb.Models.Appointments
+
+<h4 class="text-success">Appointment Details</h4>
+
+<div style="height:120px; background-color:aliceblue" class="container">
+    <div class="col-sm-12">
+        <div class="row" style="padding-top:10px;">
+            <div class="col-sm-2 text-info">
+                Full Name
+            </div>
+            <div class="col-sm-4">
+                <input asp-for="@Model.CustomerName" readonly  disabled class="form-control" />
+            </div>
+            <div class="col-sm-offset-0">
+
+            </div>
+            <div class="col-sm-2 text-info">
+                Email
+            </div>
+            <div class="col-sm-4">
+                <input asp-for="@Model.CustomerEmail" readonly disabled class="form-control"  />
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="row" style="padding-top:10px;">
+            <div class="col-sm-2 text-info">
+                Phone Number
+            </div>
+            <div class="col-sm-4">
+                <input asp-for="@Model.CustomerPhoneNumber" readonly disabled class="form-control" />
+            </div>
+            <div class="col-sm-offset-0">
+
+            </div>
+            <div class="col-sm-2 text-info">
+                Appointment Date
+            </div>
+            <div class="col-sm-4">
+                <input asp-for="@Model.AppointmentDate" readonly disabled class="form-control" />
+            </div>
+
+        </div>
+    </div>
+</div>
